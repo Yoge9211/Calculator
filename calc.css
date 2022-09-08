@@ -1,0 +1,129 @@
+.container {
+    width: 45vw;
+    height: 85vh;
+    margin: 100px auto;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: rgb(223, 219, 219);
+}
+
+.container .caption {
+    width: 100%;
+    height: 15vh;
+    margin: 3px 0px;
+    display: flex;
+
+
+
+}
+
+.container .caption .div {
+    width: 97%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+.container .caption .div h1 {
+    color: whitesmoke;
+
+}
+
+.container .screen {
+    width: 97%;
+    height: 15vh;
+    margin: -5px auto;
+    background-color: whitesmoke;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+}
+
+.container .screen input{
+    width: 96%;
+    height: 70%;
+    border: none;
+    margin: 20px 2px 0px 2px;
+    font-size: 25px;
+
+}
+
+.container .calculator .div1 {
+    width: 97%;
+    height: 40vh;
+    margin: 15px auto;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+
+}
+
+.container .calculator .div2 {
+    width: 97%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    margin: 2px auto;
+    display: flex;
+
+
+}
+
+
+.container .calculator .div1 .keys {
+    display: flex;
+    width: 100%;
+    height: 25%;
+    margin: 3px 0px;
+    /* border: 1px solid red; */
+
+
+}
+
+.container .calculator .div1 .btn {
+    font-size: 25px;
+    width: 24%;
+    height: 100%;
+    margin: 0.5%;
+    background-color: whitesmoke;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.container .calculator .div1 .bc-red {
+    background-color: rgb(173, 64, 64);
+}
+
+
+.container .calculator .div2 .zero {
+    width: 49%;
+    height: 100%;
+    margin: 0.4%;
+    background-color: whitesmoke;
+    border: none;
+    box-sizing: border-box;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.container .calculator .div2 .sp-btn {
+    width: 24%;
+    height: 100%;
+    margin: 0.5%;
+    background-color: whitesmoke;
+    border: none;
+    box-sizing: border-box;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.container .calculator .div2 .bc-red {
+    background-color: rgb(173, 64, 64);
+}
